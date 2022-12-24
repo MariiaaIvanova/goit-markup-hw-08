@@ -24,15 +24,19 @@
                 <a href="/" class="logo page-header__logo link"><span class="logo__logo-web">Web</span><span
                         class="logo__logo-studio">Studio</span>
                 </a>
-                <button type="button" class="page-header__menu-button is-open" aria-expanded="false"
-                    aria-controls="page-header__menu" data-menu-button>
-                    <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+                <button type="button" class="page-header__menu-button js-close-menu " >
+                    <svg width="40" height="40" >
                         <use class="menu-button__icon-cross" href="./css/images/icons.svg#icon-cross"></use>
+    
+                    </svg>
+                </button>
+                <button type="button" class="page-header__menu-button js-open-menu" aria-expanded="false" aria-controls="page-header__menu">
+                    <svg width="40" height="40" aria-label="Перемикач мобільного меню">
                         <use class="menu-button__icon-menu" href="./css/images/icons.svg#icon-menu"></use>
                     </svg>
                 </button>
     
-                <div class="page-header__menu is-open" id="page-header__menu" data-menu>
+                <div class="page-header__menu js-menu-container" id="page-header__menu">
     
                     <ul class="menu-nav">
                         <li class="menu-nav__item"><a href="./index.html"

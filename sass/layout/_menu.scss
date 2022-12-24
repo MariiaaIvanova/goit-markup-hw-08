@@ -8,6 +8,7 @@
     height: 40px;
     background-color: transparent;
     border: none;
+    
 
     @media screen and (min-width: 768px) {
         display: none;
@@ -38,7 +39,7 @@
 
 
     @media screen and (max-width: 767px) {
-        display: flex;
+       
 
         display: none;
         position: absolute;
@@ -51,13 +52,16 @@
         z-index: 99;
         height: 796px;
 
+        
+
+
         background-color: $bcg-primery-color;
 
         &.is-open {
             display: block;
+            
         }
     }
-
 
     @media screen and (min-width: 768px) {
         display: none;
