@@ -670,10 +670,10 @@ body.modal-open {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .main-section__title {
-    margin-bottom: 30px;
     font-size: 44px;
     line-height: 1.3636363636;
   }
@@ -693,35 +693,35 @@ body.modal-open {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_sm@1x.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_sm@1x.jpg");
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_md@1x.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_md@1x.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_sm@1x.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_sm@1x.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_md@1x.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_md@1x.jpg");
 }
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main-section {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_sm@2x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_sm@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_sm@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_sm@2x.jpg");
   }
 }
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main-section {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_md@2x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_md@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_md@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_md@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .main-section {
     padding-bottom: 200px;
     padding-top: 200px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_lg@1x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_lg@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_lg@1x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_lg@1x.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .main-section {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../css/images/overley/img_lg@2x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../css/images/overley/img_lg@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/overley/img_lg@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/overley/img_lg@2x.jpg");
   }
 }
 
@@ -799,22 +799,22 @@ body.modal-open {
 }
 
 .benefits-section__description.icon-antenna::before {
-  background-image: url("../css/images/antenna.svg");
+  background-image: url("../images/antenna.svg");
   margin-bottom: 30px;
 }
 
 .benefits-section__description.icon-clock::before {
-  background-image: url("../css/images/clock.svg");
+  background-image: url("../images/clock.svg");
   margin-bottom: 30px;
 }
 
 .benefits-section__description.icon-diagram::before {
-  background-image: url("../css/images/diagram.svg");
+  background-image: url("../images/diagram.svg");
   margin-bottom: 30px;
 }
 
 .benefits-section__description.icon-astronaut::before {
-  background-image: url("../css/images/astronaut.svg");
+  background-image: url("../images/astronaut.svg");
   margin-bottom: 30px;
 }
 
@@ -1449,10 +1449,6 @@ footer {
 
 .page-header__menu-button {
   font-family: inherit;
-  position: relative;
-  z-index: 100;
-  top: 0;
-  left: 0;
   height: 40px;
   background-color: transparent;
   border: none;
@@ -1463,34 +1459,27 @@ footer {
   }
 }
 
-.menu-button__icon-cross {
-  display: none;
-}
 .menu-button__icon-cross:hover, .menu-button__icon-cross:focus {
   color: #2196F3;
 }
 
-.page-header__menu-button.is-open .menu-button__icon-cross {
-  display: block;
-}
-
-.page-header__menu-button.is-open .menu-button__icon-menu {
-  display: none;
+.page-header__menu-button--close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
 }
 
 @media screen and (max-width: 767px) {
   .page-header__menu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 48px 40px;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    z-index: 99;
-    height: 796px;
     background-color: #FFFFFF;
   }
   .page-header__menu.is-open {
@@ -1505,7 +1494,7 @@ footer {
 
 .menu-nav {
   display: block;
-  margin-bottom: 305px;
+  margin-bottom: 200px;
 }
 @media screen and (min-width: 768px) {
   .menu-nav {

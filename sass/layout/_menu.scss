@@ -1,10 +1,7 @@
 .page-header__menu-button {
 
     font-family: inherit;
-    position: relative;
-    z-index: 100;
-    top: 0;
-    left: 0;
+    
     height: 40px;
     background-color: transparent;
     border: none;
@@ -16,7 +13,7 @@
 }
 
 .menu-button__icon-cross {
-    display: none;
+  
 
     &:hover,
     &:focus {
@@ -24,16 +21,11 @@
     }
 }
 
-.page-header__menu-button.is-open .menu-button__icon-cross {
-    display: block;
-
+.page-header__menu-button--close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
 }
-
-.page-header__menu-button.is-open .menu-button__icon-menu {
-    display: none;
-
-}
-
 
 .page-header__menu {
 
@@ -42,18 +34,14 @@
        
 
         display: none;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         padding: 48px 40px;
         transform: translateY(0);
-        z-index: 99;
-        height: 796px;
-
-        
-
+       
 
         background-color: $bcg-primery-color;
 
@@ -71,7 +59,7 @@
 .menu-nav {
     display: block;
 
-    margin-bottom: 305px;
+    margin-bottom: 200px;
 
     @media screen and (min-width: 768px) {
             display: none;
