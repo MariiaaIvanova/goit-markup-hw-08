@@ -177,9 +177,6 @@ footer {
     display: flex;
     justify-content: space-around;
     }
-        @media screen and (min-width: 1200px) {
-        
-        }
     
 }
 
@@ -226,7 +223,7 @@ footer {
     letter-spacing: 0.01em;
     color: $bcg-primery-color;
 
-    width: 450px;
+   
     height: 50px;
     outline: none;
     padding-left: 16px;
@@ -244,8 +241,13 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
 
+@media screen and (max-width: 767px) {
+        width: 100%;}
+
+
         @media screen and (min-width: 768px) {
             margin-right: 0;
+            width: 450px;
         }
                 @media screen and (min-width: 1200px) {
                 width: 358px;
